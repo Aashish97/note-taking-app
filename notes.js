@@ -81,6 +81,7 @@ const readNotes = (title) => {
     }
 }
 
+//exporting all of the above modules to app.js
 module.exports = {
     addNotes,
     removeNotes,
