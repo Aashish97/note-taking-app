@@ -58,4 +58,5 @@ yargs.command({
     handler: (argv) => notes.readNotes(argv.title)
 })
 
+//parses all the above yargs documents
 yargs.parse();
